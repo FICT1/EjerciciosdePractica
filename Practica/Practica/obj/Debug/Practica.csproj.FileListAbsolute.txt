@@ -1,0 +1,11 @@
+C:\Users\isaqu\OneDrive\Desktop\Universidad\IntProGram\PracticaClase\noviembre19\Practica\Practica\bin\Debug\Practica.exe.config
+C:\Users\isaqu\OneDrive\Desktop\Universidad\IntProGram\PracticaClase\noviembre19\Practica\Practica\bin\Debug\Practica.exe
+C:\Users\isaqu\OneDrive\Desktop\Universidad\IntProGram\PracticaClase\noviembre19\Practica\Practica\bin\Debug\Practica.pdb
+C:\Users\isaqu\OneDrive\Desktop\Universidad\IntProGram\PracticaClase\noviembre19\Practica\Practica\obj\Debug\Practica.csproj.AssemblyReference.cache
+C:\Users\isaqu\OneDrive\Desktop\Universidad\IntProGram\PracticaClase\noviembre19\Practica\Practica\obj\Debug\Practica.Form1.resources
+C:\Users\isaqu\OneDrive\Desktop\Universidad\IntProGram\PracticaClase\noviembre19\Practica\Practica\obj\Debug\Practica.Properties.Resources.resources
+C:\Users\isaqu\OneDrive\Desktop\Universidad\IntProGram\PracticaClase\noviembre19\Practica\Practica\obj\Debug\Practica.csproj.GenerateResource.cache
+C:\Users\isaqu\OneDrive\Desktop\Universidad\IntProGram\PracticaClase\noviembre19\Practica\Practica\obj\Debug\Practica.csproj.CoreCompileInputs.cache
+C:\Users\isaqu\OneDrive\Desktop\Universidad\IntProGram\PracticaClase\noviembre19\Practica\Practica\obj\Debug\Practica.exe
+C:\Users\isaqu\OneDrive\Desktop\Universidad\IntProGram\PracticaClase\noviembre19\Practica\Practica\obj\Debug\Practica.pdb
+C:\Users\isaqu\OneDrive\Desktop\Universidad\IntProGram\PracticaClase\noviembre19\Practica\Practica\obj\Debug\Practica.exe.config

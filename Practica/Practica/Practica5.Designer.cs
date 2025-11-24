@@ -33,6 +33,8 @@
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnGenerar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnAvanzar = new System.Windows.Forms.Button();
+            this.btnRetroceder = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,6 +63,7 @@
             this.btnCalcular.TabIndex = 11;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // btnGenerar
             // 
@@ -84,11 +87,33 @@
             this.panel1.Size = new System.Drawing.Size(405, 349);
             this.panel1.TabIndex = 13;
             // 
+            // btnAvanzar
+            // 
+            this.btnAvanzar.Location = new System.Drawing.Point(104, 12);
+            this.btnAvanzar.Name = "btnAvanzar";
+            this.btnAvanzar.Size = new System.Drawing.Size(75, 23);
+            this.btnAvanzar.TabIndex = 15;
+            this.btnAvanzar.Text = "Avanzar";
+            this.btnAvanzar.UseVisualStyleBackColor = true;
+            this.btnAvanzar.Click += new System.EventHandler(this.btnAvanzar_Click);
+            // 
+            // btnRetroceder
+            // 
+            this.btnRetroceder.Location = new System.Drawing.Point(12, 12);
+            this.btnRetroceder.Name = "btnRetroceder";
+            this.btnRetroceder.Size = new System.Drawing.Size(86, 23);
+            this.btnRetroceder.TabIndex = 14;
+            this.btnRetroceder.Text = "Retroceder";
+            this.btnRetroceder.UseVisualStyleBackColor = true;
+            this.btnRetroceder.Click += new System.EventHandler(this.btnRetroceder_Click);
+            // 
             // Practica5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(547, 450);
+            this.Controls.Add(this.btnAvanzar);
+            this.Controls.Add(this.btnRetroceder);
             this.Controls.Add(this.panel1);
             this.Name = "Practica5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -106,5 +131,7 @@
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Button btnGenerar;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnAvanzar;
+        private System.Windows.Forms.Button btnRetroceder;
     }
 }

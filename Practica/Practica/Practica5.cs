@@ -40,5 +40,45 @@ namespace Practica
             lblNumeros.Text = string.Join(", ", numeros);
         }
 
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            int max = numeros[0];
+            int min = numeros[0];
+            int iteraciones = 0;
+
+            for (int i = 0; i < numeros.Length; i++)
+            {
+                iteraciones++;
+
+                if (numeros[i] > max)
+                {
+                    max = numeros[i];
+                }
+
+                if (numeros[i] < min)
+                {
+                    min = numeros[i];
+                }
+            }
+
+            lblResultado.Text =
+                "Máximo: " + max +
+                "\nMínimo: " + min +
+                "\nIteraciones: " + iteraciones;
+        }
+
+        private void btnAvanzar_Click(object sender, EventArgs e)
+        {
+            Practica6 f4 = new Practica6();
+            f4.Show();
+            this.Hide();
+        }
+
+        private void btnRetroceder_Click(object sender, EventArgs e)
+        {
+            Practica4 f2 = new Practica4();
+            f2.Show();
+            this.Hide();
+        }
     }
 }

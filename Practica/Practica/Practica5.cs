@@ -24,5 +24,21 @@ namespace Practica
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGenerar_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < numeros.Length; i++)
+            {
+                numeros[i] = rand.Next(1, 101);
+            }
+
+            lblNumeros.Text = string.Join(", ", numeros);
+        }
+
     }
 }

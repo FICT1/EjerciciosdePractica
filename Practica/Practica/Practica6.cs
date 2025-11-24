@@ -42,5 +42,34 @@ namespace Practica
             }
         }
 
+        private void btnBuscarNumero_Click(object sender, EventArgs e)
+        {
+            if (!int.TryParse(tbBuscarNumero.Text, out int buscado))
+            {
+                MessageBox.Show("Ingrese un número válido");
+                return;
+            }
+
+            bool encontrado = false;
+
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    if (matriz[i, j] == buscado)
+                    {
+                        lblResultado.Text = $"Número encontrado en Fila: {i} Columna: {j}";
+                        encontrado = true;
+                        return;
+                    }
+                }
+            }
+
+            if (!encontrado)
+            {
+                lblResultado.Text = "Número no encontrado en la matriz";
+            }
+        }
+
     }
 }

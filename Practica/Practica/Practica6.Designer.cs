@@ -41,7 +41,7 @@
             // 
             this.btnRetroceder.Location = new System.Drawing.Point(12, 12);
             this.btnRetroceder.Name = "btnRetroceder";
-            this.btnRetroceder.Size = new System.Drawing.Size(86, 23);
+            this.btnRetroceder.Size = new System.Drawing.Size(104, 23);
             this.btnRetroceder.TabIndex = 15;
             this.btnRetroceder.Text = "Retroceder";
             this.btnRetroceder.UseVisualStyleBackColor = true;
@@ -50,7 +50,7 @@
             // dgvMatriz
             // 
             this.dgvMatriz.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMatriz.Location = new System.Drawing.Point(49, 217);
+            this.dgvMatriz.Location = new System.Drawing.Point(39, 164);
             this.dgvMatriz.Name = "dgvMatriz";
             this.dgvMatriz.RowHeadersWidth = 51;
             this.dgvMatriz.RowTemplate.Height = 24;
@@ -59,23 +59,24 @@
             // 
             // tbBuscarNumero
             // 
-            this.tbBuscarNumero.Location = new System.Drawing.Point(49, 181);
+            this.tbBuscarNumero.Location = new System.Drawing.Point(39, 81);
             this.tbBuscarNumero.Name = "tbBuscarNumero";
             this.tbBuscarNumero.Size = new System.Drawing.Size(225, 22);
             this.tbBuscarNumero.TabIndex = 17;
             // 
             // btnBuscarNumero
             // 
-            this.btnBuscarNumero.Location = new System.Drawing.Point(294, 174);
+            this.btnBuscarNumero.Location = new System.Drawing.Point(284, 74);
             this.btnBuscarNumero.Name = "btnBuscarNumero";
             this.btnBuscarNumero.Size = new System.Drawing.Size(90, 37);
             this.btnBuscarNumero.TabIndex = 18;
             this.btnBuscarNumero.Text = "Buscar";
             this.btnBuscarNumero.UseVisualStyleBackColor = true;
+            this.btnBuscarNumero.Click += new System.EventHandler(this.btnBuscarNumero_Click);
             // 
             // btnGenerarMatriz
             // 
-            this.btnGenerarMatriz.Location = new System.Drawing.Point(421, 157);
+            this.btnGenerarMatriz.Location = new System.Drawing.Point(411, 57);
             this.btnGenerarMatriz.Name = "btnGenerarMatriz";
             this.btnGenerarMatriz.Size = new System.Drawing.Size(101, 46);
             this.btnGenerarMatriz.TabIndex = 19;
@@ -86,16 +87,16 @@
             // lblResultado
             // 
             this.lblResultado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblResultado.Location = new System.Drawing.Point(49, 38);
+            this.lblResultado.Location = new System.Drawing.Point(39, 114);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(361, 112);
+            this.lblResultado.Size = new System.Drawing.Size(361, 36);
             this.lblResultado.TabIndex = 20;
             // 
             // Practica6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(534, 450);
+            this.ClientSize = new System.Drawing.Size(536, 423);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnGenerarMatriz);
             this.Controls.Add(this.btnBuscarNumero);

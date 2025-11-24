@@ -75,7 +75,7 @@
             // 
             // btnBuscarTexto
             // 
-            this.btnBuscarTexto.Location = new System.Drawing.Point(274, 75);
+            this.btnBuscarTexto.Location = new System.Drawing.Point(255, 67);
             this.btnBuscarTexto.Name = "btnBuscarTexto";
             this.btnBuscarTexto.Size = new System.Drawing.Size(112, 64);
             this.btnBuscarTexto.TabIndex = 7;

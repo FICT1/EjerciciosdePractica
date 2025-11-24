@@ -38,11 +38,34 @@ namespace Practica
 
         private void btnBuscarTexto_Click(object sender, EventArgs e)
         {
-            string texto = tbParrafo.Text.ToLower();
+            string texto = tbParrafo.Text.ToLower();  
             string palabra = tbPalabra.Text.ToLower();
 
+            int contador = 0;
 
+           
+            for (int i = 0; i <= texto.Length - palabra.Length; i++)
+            {
+                bool coincide = true;
 
+                
+                for (int j = 0; j < palabra.Length; j++)
+                {
+                    if (texto[i + j] != palabra[j])
+                    {
+                        coincide = false;
+                        break;
+                    }
+                }
+
+                if (coincide)
+                {
+                    contador++;
+                }
+            }
+
+            lblResultado.Text = $"La palabra aparece {contador} veces.";
         }
+
     }
 }

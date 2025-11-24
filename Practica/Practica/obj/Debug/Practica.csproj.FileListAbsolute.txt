@@ -10,3 +10,4 @@ C:\Users\isaqu\OneDrive\Desktop\Universidad\IntProGram\PracticaClase\noviembre19
 C:\Users\isaqu\OneDrive\Desktop\Universidad\IntProGram\PracticaClase\noviembre19\Practica\Practica\obj\Debug\Practica.pdb
 C:\Users\isaqu\OneDrive\Desktop\Universidad\IntProGram\PracticaClase\noviembre19\Practica\Practica\obj\Debug\Practica.exe.config
 C:\Users\isaqu\OneDrive\Desktop\Universidad\IntProGram\PracticaClase\noviembre19\Practica\Practica\obj\Debug\Practica.Practica2.resources
+C:\Users\isaqu\OneDrive\Desktop\Universidad\IntProGram\PracticaClase\noviembre19\Practica\Practica\obj\Debug\Practica.Practica3.resources

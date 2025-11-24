@@ -85,5 +85,20 @@ namespace Practica
                 MessageBox.Show("El número no se encuentra.");
             }
         }
+
+        private void btnAvanzar_Click(object sender, EventArgs e)
+        {
+            Practica3 f3 = new Practica3();
+            f3.Show();
+            this.Hide();
+        }
+
+        private void btnRetroceder_Click(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            f1.Show();
+            this.Hide();
+        }
+
     }
 }

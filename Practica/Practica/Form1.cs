@@ -81,6 +81,13 @@ namespace Practica
                 }
             }
         }
+
+        private void btnAvanzar_Click(object sender, EventArgs e)
+        {
+            Practica2 f2 = new Practica2();
+            f2.Show();
+            this.Hide();
+        }
     }
 }
 

@@ -67,5 +67,19 @@ namespace Practica
             lblResultado.Text = $"La palabra aparece {contador} veces.";
         }
 
+        private void btnAvanzar_Click(object sender, EventArgs e)
+        {
+            Practica4 f4 = new Practica4();
+            f4.Show();
+            this.Hide();
+        }
+
+        private void btnRetroceder_Click(object sender, EventArgs e)
+        {
+            Practica2 f2 = new Practica2();
+            f2.Show();
+            this.Hide();
+        }
+
     }
 }

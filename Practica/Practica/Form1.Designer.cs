@@ -34,8 +34,9 @@
             this.busqueda = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.btnBuscar = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnAvanzar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -101,15 +102,6 @@
             this.panel1.Size = new System.Drawing.Size(341, 383);
             this.panel1.TabIndex = 6;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(151, 188);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(149, 16);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "presionar para recargar";
-            // 
             // btnBuscar
             // 
             this.btnBuscar.Location = new System.Drawing.Point(136, 304);
@@ -120,13 +112,34 @@
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(151, 188);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(149, 16);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "presionar para recargar";
+            // 
+            // btnAvanzar
+            // 
+            this.btnAvanzar.Location = new System.Drawing.Point(12, 12);
+            this.btnAvanzar.Name = "btnAvanzar";
+            this.btnAvanzar.Size = new System.Drawing.Size(75, 23);
+            this.btnAvanzar.TabIndex = 12;
+            this.btnAvanzar.Text = "Avanzar";
+            this.btnAvanzar.UseVisualStyleBackColor = true;
+            this.btnAvanzar.Click += new System.EventHandler(this.btnAvanzar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(547, 450);
+            this.Controls.Add(this.btnAvanzar);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -144,6 +157,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.Button btnAvanzar;
     }
 }
 

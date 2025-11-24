@@ -35,6 +35,8 @@
             this.btnBuscarTexto = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.btnRetroceder = new System.Windows.Forms.Button();
+            this.btnAvanzar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbPalabra
@@ -91,11 +93,33 @@
             this.lblResultado.Size = new System.Drawing.Size(319, 121);
             this.lblResultado.TabIndex = 8;
             // 
+            // btnRetroceder
+            // 
+            this.btnRetroceder.Location = new System.Drawing.Point(12, 9);
+            this.btnRetroceder.Name = "btnRetroceder";
+            this.btnRetroceder.Size = new System.Drawing.Size(86, 23);
+            this.btnRetroceder.TabIndex = 9;
+            this.btnRetroceder.Text = "Retroceder";
+            this.btnRetroceder.UseVisualStyleBackColor = true;
+            this.btnRetroceder.Click += new System.EventHandler(this.btnRetroceder_Click);
+            // 
+            // btnAvanzar
+            // 
+            this.btnAvanzar.Location = new System.Drawing.Point(104, 9);
+            this.btnAvanzar.Name = "btnAvanzar";
+            this.btnAvanzar.Size = new System.Drawing.Size(75, 23);
+            this.btnAvanzar.TabIndex = 10;
+            this.btnAvanzar.Text = "Avanzar";
+            this.btnAvanzar.UseVisualStyleBackColor = true;
+            this.btnAvanzar.Click += new System.EventHandler(this.btnAvanzar_Click);
+            // 
             // Practica3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(466, 450);
+            this.Controls.Add(this.btnAvanzar);
+            this.Controls.Add(this.btnRetroceder);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnBuscarTexto);
             this.Controls.Add(this.label1);
@@ -103,6 +127,7 @@
             this.Controls.Add(this.tbParrafo);
             this.Controls.Add(this.tbPalabra);
             this.Name = "Practica3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Practica3";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -118,5 +143,7 @@
         private System.Windows.Forms.Button btnBuscarTexto;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Button btnRetroceder;
+        private System.Windows.Forms.Button btnAvanzar;
     }
 }

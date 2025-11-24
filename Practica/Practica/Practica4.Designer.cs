@@ -65,11 +65,11 @@
             // dgvEstudiantes
             // 
             this.dgvEstudiantes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEstudiantes.Location = new System.Drawing.Point(46, 250);
+            this.dgvEstudiantes.Location = new System.Drawing.Point(27, 272);
             this.dgvEstudiantes.Name = "dgvEstudiantes";
             this.dgvEstudiantes.RowHeadersWidth = 51;
             this.dgvEstudiantes.RowTemplate.Height = 24;
-            this.dgvEstudiantes.Size = new System.Drawing.Size(240, 150);
+            this.dgvEstudiantes.Size = new System.Drawing.Size(382, 150);
             this.dgvEstudiantes.TabIndex = 13;
             // 
             // tbBuscarID
@@ -87,6 +87,7 @@
             this.btnBuscarID.TabIndex = 15;
             this.btnBuscarID.Text = "Buscar ID";
             this.btnBuscarID.UseVisualStyleBackColor = true;
+            this.btnBuscarID.Click += new System.EventHandler(this.btnBuscarID_Click);
             // 
             // tbBuscarNombre
             // 
@@ -106,12 +107,13 @@
             // 
             // btnCargarEstudiantes
             // 
-            this.btnCargarEstudiantes.Location = new System.Drawing.Point(326, 298);
+            this.btnCargarEstudiantes.Location = new System.Drawing.Point(415, 313);
             this.btnCargarEstudiantes.Name = "btnCargarEstudiantes";
             this.btnCargarEstudiantes.Size = new System.Drawing.Size(113, 54);
             this.btnCargarEstudiantes.TabIndex = 18;
             this.btnCargarEstudiantes.Text = "Cargar";
             this.btnCargarEstudiantes.UseVisualStyleBackColor = true;
+            this.btnCargarEstudiantes.Click += new System.EventHandler(this.btnCargarEstudiantes_Click);
             // 
             // label1
             // 
@@ -160,6 +162,7 @@
             this.Name = "Practica4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Practica4";
+            this.Load += new System.EventHandler(this.Practica4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEstudiantes)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

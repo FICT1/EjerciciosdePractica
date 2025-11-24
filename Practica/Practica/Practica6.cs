@@ -12,6 +12,9 @@ namespace Practica
 {
     public partial class Practica6 : Form
     {
+        int[,] matriz = new int[10, 10];
+        Random rand = new Random();
+
         public Practica6()
         {
             InitializeComponent();

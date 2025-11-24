@@ -52,6 +52,7 @@
             this.btnBuscarBinario.TabIndex = 3;
             this.btnBuscarBinario.Text = "Buscar";
             this.btnBuscarBinario.UseVisualStyleBackColor = true;
+            this.btnBuscarBinario.Click += new System.EventHandler(this.btnBuscarBinario_Click);
             // 
             // lblProceso
             // 

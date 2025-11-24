@@ -81,6 +81,7 @@
             this.btnGenerarMatriz.TabIndex = 19;
             this.btnGenerarMatriz.Text = "Generar";
             this.btnGenerarMatriz.UseVisualStyleBackColor = true;
+            this.btnGenerarMatriz.Click += new System.EventHandler(this.btnGenerarMatriz_Click);
             // 
             // lblResultado
             // 

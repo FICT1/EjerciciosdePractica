@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\isaqu\\OneDrive\\Desktop\\Universidad\\IntProGram\\PracticaClase\\noviembre19\\Practica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19686C3A-7F47-4803-AD44-7D1FAC58FF81}|Practica\\Practica.csproj|c:\\users\\isaqu\\onedrive\\desktop\\universidad\\intprogram\\practicaclase\\noviembre19\\practica\\practica\\practica4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19686C3A-7F47-4803-AD44-7D1FAC58FF81}|Practica\\Practica.csproj|solutionrelative:practica\\practica4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19686C3A-7F47-4803-AD44-7D1FAC58FF81}|Practica\\Practica.csproj|c:\\users\\isaqu\\onedrive\\desktop\\universidad\\intprogram\\practicaclase\\noviembre19\\practica\\practica\\practica5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19686C3A-7F47-4803-AD44-7D1FAC58FF81}|Practica\\Practica.csproj|solutionrelative:practica\\practica5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19686C3A-7F47-4803-AD44-7D1FAC58FF81}|Practica\\Practica.csproj|c:\\users\\isaqu\\onedrive\\desktop\\universidad\\intprogram\\practicaclase\\noviembre19\\practica\\practica\\practica5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19686C3A-7F47-4803-AD44-7D1FAC58FF81}|Practica\\Practica.csproj|solutionrelative:practica\\practica5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19686C3A-7F47-4803-AD44-7D1FAC58FF81}|Practica\\Practica.csproj|C:\\Users\\isaqu\\OneDrive\\Desktop\\Universidad\\IntProGram\\PracticaClase\\noviembre19\\Practica\\practica\\practica4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -13,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{19686C3A-7F47-4803-AD44-7D1FAC58FF81}|Practica\\Practica.csproj|C:\\Users\\isaqu\\OneDrive\\Desktop\\Universidad\\IntProGram\\PracticaClase\\noviembre19\\Practica\\practica\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19686C3A-7F47-4803-AD44-7D1FAC58FF81}|Practica\\Practica.csproj|solutionrelative:practica\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19686C3A-7F47-4803-AD44-7D1FAC58FF81}|Practica\\Practica.csproj|c:\\users\\isaqu\\onedrive\\desktop\\universidad\\intprogram\\practicaclase\\noviembre19\\practica\\practica\\practica4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19686C3A-7F47-4803-AD44-7D1FAC58FF81}|Practica\\Practica.csproj|solutionrelative:practica\\practica4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,19 +51,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Practica5.cs",
+              "DocumentMoniker": "C:\\Users\\isaqu\\OneDrive\\Desktop\\Universidad\\IntProGram\\PracticaClase\\noviembre19\\Practica\\Practica\\Practica5.cs",
+              "RelativeDocumentMoniker": "Practica\\Practica5.cs",
+              "ToolTip": "C:\\Users\\isaqu\\OneDrive\\Desktop\\Universidad\\IntProGram\\PracticaClase\\noviembre19\\Practica\\Practica\\Practica5.cs",
+              "RelativeToolTip": "Practica\\Practica5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T02:38:43.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Practica5.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\isaqu\\OneDrive\\Desktop\\Universidad\\IntProGram\\PracticaClase\\noviembre19\\Practica\\Practica\\Practica5.cs",
+              "RelativeDocumentMoniker": "Practica\\Practica5.cs",
+              "ToolTip": "C:\\Users\\isaqu\\OneDrive\\Desktop\\Universidad\\IntProGram\\PracticaClase\\noviembre19\\Practica\\Practica\\Practica5.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Practica\\Practica5.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T02:35:53.78Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Practica4.cs",
               "DocumentMoniker": "C:\\Users\\isaqu\\OneDrive\\Desktop\\Universidad\\IntProGram\\PracticaClase\\noviembre19\\Practica\\Practica\\Practica4.cs",
               "RelativeDocumentMoniker": "Practica\\Practica4.cs",
               "ToolTip": "C:\\Users\\isaqu\\OneDrive\\Desktop\\Universidad\\IntProGram\\PracticaClase\\noviembre19\\Practica\\Practica\\Practica4.cs",
               "RelativeToolTip": "Practica\\Practica4.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAiwFoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAkwH0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T02:10:42.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Estudiante.cs",
               "DocumentMoniker": "C:\\Users\\isaqu\\OneDrive\\Desktop\\Universidad\\IntProGram\\PracticaClase\\noviembre19\\Practica\\Practica\\Estudiante.cs",
               "RelativeDocumentMoniker": "Practica\\Estudiante.cs",
@@ -63,11 +96,12 @@
               "RelativeToolTip": "Practica\\Estudiante.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T02:07:02.176Z"
+              "WhenOpened": "2025-11-24T02:07:02.176Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Practica4.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\isaqu\\OneDrive\\Desktop\\Universidad\\IntProGram\\PracticaClase\\noviembre19\\Practica\\Practica\\Practica4.cs",
               "RelativeDocumentMoniker": "Practica\\Practica4.cs",

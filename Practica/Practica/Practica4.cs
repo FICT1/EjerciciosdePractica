@@ -119,6 +119,11 @@ namespace Practica
             }
         }
 
-
+        private void btnAvanzar_Click(object sender, EventArgs e)
+        {
+            Practica5 f4 = new Practica5();
+            f4.Show();
+            this.Hide();
+        }
     }
 }

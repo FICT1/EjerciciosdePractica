@@ -51,6 +51,7 @@
             this.btnAvanzar.TabIndex = 12;
             this.btnAvanzar.Text = "Avanzar";
             this.btnAvanzar.UseVisualStyleBackColor = true;
+            this.btnAvanzar.Click += new System.EventHandler(this.btnAvanzar_Click);
             // 
             // btnRetroceder
             // 

@@ -59,7 +59,7 @@
             this.lblProceso.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblProceso.Location = new System.Drawing.Point(32, 18);
             this.lblProceso.Name = "lblProceso";
-            this.lblProceso.Size = new System.Drawing.Size(319, 162);
+            this.lblProceso.Size = new System.Drawing.Size(319, 107);
             this.lblProceso.TabIndex = 5;
             // 
             // btnCrearLista

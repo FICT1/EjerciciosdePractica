@@ -37,22 +37,22 @@ namespace Practica
         {
             estudiantes.Clear();
 
-            estudiantes.Add(new Estudiante { Id = 1, Nombre = "Carlos" });
-            estudiantes.Add(new Estudiante { Id = 2, Nombre = "Ana" });
-            estudiantes.Add(new Estudiante { Id = 3, Nombre = "Luis" });
-            estudiantes.Add(new Estudiante { Id = 4, Nombre = "Maria" });
-            estudiantes.Add(new Estudiante { Id = 5, Nombre = "Pedro" });
-            estudiantes.Add(new Estudiante { Id = 6, Nombre = "Jose" });
-            estudiantes.Add(new Estudiante { Id = 7, Nombre = "Sofia" });
-            estudiantes.Add(new Estudiante { Id = 8, Nombre = "Diana" });
-            estudiantes.Add(new Estudiante { Id = 9, Nombre = "Ricardo" });
-            estudiantes.Add(new Estudiante { Id = 10, Nombre = "Valeria" });
+            estudiantes.Add(new Estudiante { Id = 100, Nombre = "Carlos" });
+            estudiantes.Add(new Estudiante { Id = 220, Nombre = "Ana" });
+            estudiantes.Add(new Estudiante { Id = 311, Nombre = "Luis" });
+            estudiantes.Add(new Estudiante { Id = 214, Nombre = "Maria" });
+            estudiantes.Add(new Estudiante { Id = 590, Nombre = "Pedro" });
+            estudiantes.Add(new Estudiante { Id = 677, Nombre = "Jose" });
+            estudiantes.Add(new Estudiante { Id = 234, Nombre = "Sofia" });
+            estudiantes.Add(new Estudiante { Id = 432, Nombre = "Diana" });
+            estudiantes.Add(new Estudiante { Id = 211, Nombre = "Ricardo" });
+            estudiantes.Add(new Estudiante { Id = 987, Nombre = "Valeria" });
 
             dgvEstudiantes.DataSource = null;
             dgvEstudiantes.DataSource = estudiantes;
         }
 
-        private void btnBuscarId_Click(object sender, EventArgs e)
+        private void btnBuscarID_Click(object sender, EventArgs e)
         {
             if (!int.TryParse(tbBuscarID.Text, out int idBuscado))
             {
@@ -81,6 +81,44 @@ namespace Practica
                 MessageBox.Show("No existe estudiante con ese ID");
             }
         }
+
+        private void btnBuscarNombre_Click(object sender, EventArgs f)
+        {
+            string nombreBuscado = tbBuscarNombre.Text.ToLower();
+
+            estudiantes = estudiantes.OrderBy(e => e.Nombre).ToList();
+
+            int inicio = 0;
+            int fin = estudiantes.Count - 1;
+            bool encontrado = false;
+
+            while (inicio <= fin)
+            {
+                int mitad = (inicio + fin) / 2;
+                string nombreMitad = estudiantes[mitad].Nombre.ToLower();
+
+                if (nombreMitad == nombreBuscado)
+                {
+                    MessageBox.Show("Estudiante encontrado: ID " + estudiantes[mitad].Id);
+                    encontrado = true;
+                    break;
+                }
+                else if (nombreBuscado.CompareTo(nombreMitad) < 0)
+                {
+                    fin = mitad - 1;
+                }
+                else
+                {
+                    inicio = mitad + 1;
+                }
+            }
+
+            if (!encontrado)
+            {
+                MessageBox.Show("No se encontró el estudiante");
+            }
+        }
+
 
     }
 }

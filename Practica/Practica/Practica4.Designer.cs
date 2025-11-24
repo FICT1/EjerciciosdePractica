@@ -104,6 +104,7 @@
             this.btnBuscarNombre.TabIndex = 17;
             this.btnBuscarNombre.Text = "Buscar";
             this.btnBuscarNombre.UseVisualStyleBackColor = true;
+            this.btnBuscarNombre.Click += new System.EventHandler(this.btnBuscarNombre_Click);
             // 
             // btnCargarEstudiantes
             // 

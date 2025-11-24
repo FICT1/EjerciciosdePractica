@@ -20,6 +20,8 @@ namespace Practica
 {
     public partial class Practica2 : Form
     {
+        int[] lista = new int[30];
+        Random rand2 = new Random();
 
         public Practica2()
         {
@@ -30,5 +32,17 @@ namespace Practica
         {
 
         }
+
+        private void btnCrearLista_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; < lista.Length; i++)
+            {
+                lista[i] = rand2.Next(1, 101);
+            }
+            Array.Sort(lista);
+            lblListaOrdenada.Text = string.Join(", ", lista);
+        }
+
+
     }
 }

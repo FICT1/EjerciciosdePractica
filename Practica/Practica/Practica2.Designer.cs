@@ -46,7 +46,7 @@
             // 
             // btnBuscarBinario
             // 
-            this.btnBuscarBinario.Location = new System.Drawing.Point(280, 248);
+            this.btnBuscarBinario.Location = new System.Drawing.Point(280, 236);
             this.btnBuscarBinario.Name = "btnBuscarBinario";
             this.btnBuscarBinario.Size = new System.Drawing.Size(93, 48);
             this.btnBuscarBinario.TabIndex = 3;
@@ -69,6 +69,7 @@
             this.btnCrearLista.TabIndex = 6;
             this.btnCrearLista.Text = "Crear";
             this.btnCrearLista.UseVisualStyleBackColor = true;
+            this.btnCrearLista.Click += new System.EventHandler(this.btnCrearLista_Click);
             // 
             // lblListaOrdenada
             // 
